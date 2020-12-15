@@ -22,17 +22,17 @@ setlocale(LC_ALL, "rus");
 	
 	switch (vib)
 	{
-	case 1: 
-		cout << MySum(a,b) << endl;
+	case 1:
+		cout << "Результат: " << MySum(a, b) << endl;
 		break;//Сложение
 	case 2:
-		cout << MySub(a,b) << endl;
+		cout << "Результат: " << MySub(a, b) << endl;
 		break;//Вычитание
 	case 3: 
-		cout << MyMul(a,b) << endl;
+		cout << "Результат: " << MyMul(a, b) << endl;
 		break;//Деление
 	case 4: 
-		cout << MyDiv(a,b) << endl;
+		cout << "Результат: " << MyDiv(a, b) << endl;
 		break;//Умножение
 	}
 	system("pause");
