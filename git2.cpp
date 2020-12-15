@@ -23,18 +23,18 @@ setlocale(LC_ALL, "rus");
 	switch (vib)
 	{
 	case 1: 
-		cout << "Здесь будет функция сложения" << endl;
+		cout << MySum(a,b) << endl;
 		break;//Сложение
 	case 2:
-		cout << "Здесь будет функция вычитания" << endl;
+		cout << MySub(a,b) << endl;
 		break;//Вычитание
 	case 3: 
-		cout << "Здесь будет функция умножения" << endl;
+		cout << MyMul(a,b) << endl;
 		break;//Деление
 	case 4: 
-		cout << "Здесь будет функция деления" << endl;
+		cout << MyDiv(a,b) << endl;
 		break;//Умножение
 	}
-	
+	system("pause");
 	return 0;
 }
